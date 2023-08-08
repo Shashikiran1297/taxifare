@@ -22,7 +22,7 @@ public class taxiFare {
 	}
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-    	System.out.println("plz enter your journey distance");
+    	System.out.println("plz enter your journey distance  in km");
     	km=s.nextInt();
     	taxiFare tf=new taxiFare();
     	tf.checkfare();	
